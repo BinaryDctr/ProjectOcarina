@@ -13,4 +13,5 @@ public class MessageManager {
 
     String character;
 
+
 }

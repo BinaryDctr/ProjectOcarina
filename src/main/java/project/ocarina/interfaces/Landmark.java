@@ -1,7 +1,7 @@
-package project.ocarina.interfaces.characters;
+package project.ocarina.interfaces;
 
-import org.bukkit.Location;
-import org.bukkit.entity.Entity;
+import project.ocarina.interfaces.chests.SmallChest;
+import project.ocarina.interfaces.shops.Shop;
 
 import java.util.List;
 
@@ -14,18 +14,14 @@ import java.util.List;
  * agreements with you, the third party.
  * ******************************************************************
  **/
-public interface Character {
-
-    Entity getEntity();
-
-    Location getLocation();
+public interface Landmark {
 
     String getName();
 
-    List<String> getMessages();
+    List<SmallChest> getSmallChests();
 
-    int getMessageDelay();
+    List<project.ocarina.interfaces.characters.Character> getCharacters();
 
-    void spawn();
+    List<Shop> getShops();
 
 }

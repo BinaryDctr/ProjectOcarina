@@ -2,6 +2,7 @@ package project.ocarina.interfaces.shops;
 
 import org.bukkit.Location;
 import org.bukkit.entity.EntityType;
+import org.bukkit.inventory.Inventory;
 import project.ocarina.interfaces.items.Item;
 
 import java.util.List;
@@ -24,5 +25,7 @@ public interface Shop {
     List<Item> getItems();
 
     Location getLocation();
-    
+
+    Inventory getInventory();
+
 }

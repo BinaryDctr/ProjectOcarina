@@ -1,9 +1,6 @@
-package project.ocarina.interfaces.characters;
+package project.ocarina.interfaces.companions;
 
-import org.bukkit.Location;
 import org.bukkit.entity.Entity;
-
-import java.util.List;
 
 /**
  * ******************************************************************
@@ -14,17 +11,11 @@ import java.util.List;
  * agreements with you, the third party.
  * ******************************************************************
  **/
-public interface Character {
+public interface Epona {
 
     Entity getEntity();
 
-    Location getLocation();
-
-    String getName();
-
-    List<String> getMessages();
-
-    int getMessageDelay();
+    String name();
 
     void spawn();
 

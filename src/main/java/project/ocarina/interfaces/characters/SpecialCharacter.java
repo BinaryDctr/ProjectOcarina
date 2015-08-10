@@ -1,7 +1,6 @@
 package project.ocarina.interfaces.characters;
 
 import org.bukkit.Location;
-import org.bukkit.entity.Entity;
 
 import java.util.List;
 
@@ -14,17 +13,13 @@ import java.util.List;
  * agreements with you, the third party.
  * ******************************************************************
  **/
-public interface Character {
-
-    Entity getEntity();
+public interface SpecialCharacter {
 
     Location getLocation();
 
     String getName();
 
     List<String> getMessages();
-
-    int getMessageDelay();
 
     void spawn();
 

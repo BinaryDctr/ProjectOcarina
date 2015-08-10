@@ -19,4 +19,5 @@ public interface Monster {
     MonsterType getMonsterType();
 
     Double getDamage();
+
 }
