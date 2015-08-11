@@ -8,6 +8,7 @@
     <artifactId>ProjectOcarina</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>ProjectOcarina</name>
+
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
